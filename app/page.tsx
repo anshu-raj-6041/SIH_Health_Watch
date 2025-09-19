@@ -3,6 +3,7 @@ import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
 import { FeaturesSection } from "@/components/features-section"
 import { DashboardPreviewSection } from "@/components/dashboard-preview-section"
+import { SymptomReportSection } from "@/components/symptom-report-section"
 import { AIDetectionSection } from "@/components/ai-detection-section"
 import { ChallengesSection } from "@/components/challenges-section"
 import { ImpactSection } from "@/components/impact-section"
@@ -18,6 +19,7 @@ export default function HomePage() {
           <HeroSection />
           <FeaturesSection />
           <DashboardPreviewSection />
+          <SymptomReportSection />
           <AIDetectionSection />
           <ChallengesSection />
           <ImpactSection />

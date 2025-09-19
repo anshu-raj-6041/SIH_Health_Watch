@@ -17,6 +17,7 @@ export function Navbar() {
     { name: t("nav.home"), href: "/" },
     { name: t("nav.features"), href: "#features" },
     { name: t("nav.dashboard"), href: "#dashboard" },
+    { name: t("nav.symptoms"), href: "#symptoms" },
     { name: t("nav.aiDetection"), href: "#ai-detection" },
     { name: t("nav.about"), href: "#impact" },
     { name: t("nav.contact"), href: "#contact" },
@@ -65,7 +66,7 @@ export function Navbar() {
       } else {
         console.log("[v0] Element not found, trying alternative approach")
         // Fallback: try to scroll to approximate position based on section order
-        const sections = ["features", "dashboard", "ai-detection", "impact", "contact"]
+        const sections = ["features", "dashboard", "symptoms", "ai-detection", "impact", "contact"]
         const sectionIndex = sections.indexOf(targetId)
         if (sectionIndex !== -1) {
           const approximatePosition = (sectionIndex + 1) * window.innerHeight * 0.8
